@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>나풀이 개인정보 처리방침</title>
+<style>
+  :root { --bg:#FDF9F1; --card:#FFFFFF; --ink:#1C1C17; --soft:#4E4637; --line:#ECE8E0; --gold:#795900; }
+  body { margin:0; background:var(--bg); color:var(--ink); font-family:-apple-system,"Apple SD Gothic Neo","Noto Sans KR",sans-serif; line-height:1.7; word-break:keep-all; }
+  main { max-width:720px; margin:0 auto; padding:32px 16px 64px; }
+  h1 { font-size:24px; margin:0 0 4px; }
+  .meta { color:var(--soft); font-size:14px; margin-bottom:24px; }
+  section { background:var(--card); border-radius:16px; padding:20px; margin:12px 0; }
+  h2 { font-size:17px; margin:0 0 8px; }
+  p, li { font-size:15px; color:var(--soft); }
+  table { width:100%; border-collapse:collapse; font-size:14px; }
+  th, td { text-align:left; padding:8px 6px; border-bottom:1px solid var(--line); vertical-align:top; color:var(--soft); }
+  th { color:var(--ink); font-weight:600; }
+  a { color:var(--gold); }
+</style>
+</head>
+<body>
+<main>
+  <h1>개인정보 처리방침</h1>
+  <div class="meta">나풀이 · 시행일 2026년 10월 19일</div>
+
+  <section>
+    <p>나풀이(이하 '서비스')는 「개인정보 보호법」 등 관련 법령을 지키며, 이용자의 개인정보를 운세 제공에 꼭 필요한 만큼만 처리합니다. 로그인하지 않아도 서비스를 이용할 수 있으며, 이 경우 생년월일은 이용자의 기기에만 저장됩니다.</p>
+  </section>
+
+  <section>
+    <h2>1. 처리하는 개인정보와 목적</h2>
+    <table>
+      <tr><th>항목</th><th>목적</th><th>수집 방법</th></tr>
+      <tr><td>생년월일(양력), 띠 기준 연도</td><td>띠 판정, 오늘의 운세·달력 운세 제공</td><td>이용자 입력. 기기에 저장되며, 로그인한 경우에만 서버에 저장</td></tr>
+      <tr><td>로그인 식별자(카카오 회원번호, Apple 사용자 식별자)</td><td>기기를 바꿔도 생년월일을 이어서 쓰기</td><td>카카오·Apple 로그인 시(선택)</td></tr>
+      <tr><td>이메일(Apple 로그인 시 Apple 이 제공하는 경우, 가려진 주소일 수 있음)</td><td>계정 식별</td><td>Apple 로그인 시(선택). 카카오 로그인에서는 이메일을 받지 않습니다</td></tr>
+      <tr><td>광고 식별자, 기기 정보</td><td>앱 실행 시 광고 표시</td><td>광고 SDK(Google AdMob)가 자동 수집</td></tr>
+      <tr><td>오류 기록(기기 모델, OS 버전, 오류 내용)</td><td>앱 오류 분석·개선</td><td>오류 분석 도구(Firebase Crashlytics)가 자동 수집</td></tr>
+    </table>
+    <p>알림 설정(켜짐 여부, 알림 시각)과 선택한 화면 테마는 이용자 기기에만 저장됩니다.</p>
+  </section>
+
+  <section>
+    <h2>2. 보유 기간과 파기</h2>
+    <ul>
+      <li>서버에 저장된 생년월일·로그인 정보는 <b>회원 탈퇴 즉시</b> 삭제합니다. 탈퇴는 앱의 설정 &gt; 회원 탈퇴에서 할 수 있습니다.</li>
+      <li>기기에 저장된 정보는 앱을 삭제하면 함께 지워집니다.</li>
+      <li>광고·오류 기록은 각 제공사의 보관 정책에 따릅니다.</li>
+      <li>전자적 파일은 복구할 수 없는 방법으로 삭제합니다.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>3. 제3자 제공</h2>
+    <p>서비스는 이용자의 개인정보를 제3자에게 제공하지 않습니다. 법령에 따른 요청이 있는 경우는 예외로 합니다.</p>
+  </section>
+
+  <section>
+    <h2>4. 처리 위탁과 국외 이전</h2>
+    <p>원활한 서비스를 위해 아래 업체에 개인정보 처리를 맡깁니다. 생년월일 등 회원 정보는 국내(서울) 서버에 저장되며, 광고·오류 분석·Apple 로그인 정보는 해당 업체의 국외 서버로 전송될 수 있습니다. 정보는 앱 이용 시 네트워크를 통해 전송됩니다.</p>
+    <table>
+      <tr><th>업체</th><th>맡기는 일</th><th>이전 항목</th><th>국가</th></tr>
+      <tr><td>Supabase Inc.</td><td>회원 정보·생년월일 저장(로그인 시)</td><td>로그인 식별자, 생년월일</td><td>대한민국(서울, ap-northeast-2)</td></tr>
+      <tr><td>Google LLC (AdMob, Firebase)</td><td>광고 표시, 오류 분석</td><td>광고 식별자, 기기 정보, 오류 기록</td><td>미국 등</td></tr>
+      <tr><td>Kakao Corp.</td><td>카카오 로그인</td><td>카카오 회원번호</td><td>대한민국</td></tr>
+      <tr><td>Apple Inc.</td><td>Apple 로그인</td><td>Apple 사용자 식별자, 이메일</td><td>미국</td></tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>5. 이용자의 권리</h2>
+    <ul>
+      <li>이용자는 언제든 개인정보의 열람·정정·삭제·처리 정지를 요청할 수 있습니다.</li>
+      <li>생년월일은 앱의 설정에서 직접 바꿀 수 있고, 회원 탈퇴로 서버 정보를 모두 지울 수 있습니다.</li>
+      <li>광고 식별자는 휴대폰 설정에서 재설정하거나 맞춤 광고를 끌 수 있습니다(Android: 설정 &gt; Google &gt; 광고, iOS: 설정 &gt; 개인정보 보호 및 보안 &gt; 추적).</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>6. 만 14세 미만 아동</h2>
+    <p>서비스는 만 14세 미만 아동의 회원가입(계정 연결)을 받지 않습니다. 입력한 생년월일이 만 14세 미만이면 계정 연결 기능이 열리지 않으며, 생년월일은 이용자의 기기에만 저장됩니다.</p>
+  </section>
+
+  <section>
+    <h2>7. 안전성 확보 조치</h2>
+    <p>서버 데이터는 암호화된 통신(HTTPS)으로만 주고받으며, 본인 정보만 읽고 쓸 수 있도록 접근을 제한합니다.</p>
+  </section>
+
+  <section>
+    <h2>8. 개인정보 보호책임자</h2>
+    <p>담당: 나풀이 운영자<br>문의: <a href="mailto:napuri.app@gmail.com">napuri.app@gmail.com</a></p>
+    <p>개인정보 침해 신고·상담은 개인정보침해신고센터(privacy.kisa.or.kr, 국번 없이 118), 개인정보분쟁조정위원회(www.kopico.go.kr, 1833-6972)에도 할 수 있습니다.</p>
+  </section>
+
+  <section>
+    <h2>9. 방침의 변경</h2>
+    <p>이 방침이 바뀌면 시행 7일 전에 이 페이지에 알립니다.</p>
+  </section>
+</main>
+</body>
+</html>
