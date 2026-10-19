@@ -35,7 +35,7 @@
       <tr><td>생년월일(양력), 띠 기준 연도</td><td>띠 판정, 오늘의 운세·달력 운세 제공</td><td>이용자 입력. 기기에 저장되며, 로그인한 경우에만 서버에 저장</td></tr>
       <tr><td>로그인 식별자(카카오 회원번호, Apple 사용자 식별자)</td><td>기기를 바꿔도 생년월일을 이어서 쓰기</td><td>카카오·Apple 로그인 시(선택)</td></tr>
       <tr><td>이메일(Apple 로그인 시 Apple 이 제공하는 경우, 가려진 주소일 수 있음)</td><td>계정 식별</td><td>Apple 로그인 시(선택). 카카오 로그인에서는 이메일을 받지 않습니다</td></tr>
-      <tr><td>광고 식별자, 기기 정보</td><td>앱 실행 시 광고 표시</td><td>광고 SDK(Google AdMob)가 자동 수집</td></tr>
+      <tr><td>광고 식별자, 기기 정보</td><td>앱 실행 시 광고 표시</td><td>광고 SDK(Google AdMob)가 자동 수집. 광고 입찰을 위해 Google 및 Google 인증 광고 파트너에게 전달될 수 있음</td></tr>
       <tr><td>오류 기록(기기 모델, OS 버전, 오류 내용)</td><td>앱 오류 분석·개선</td><td>오류 분석 도구(Firebase Crashlytics)가 자동 수집</td></tr>
       <tr><td>앱 이용 기록(화면 이용·접속 횟수·이용 시간, 기기·OS 정보, 앱 인스턴스 ID)</td><td>서비스 이용 통계, 기능 개선</td><td>이용 분석 도구(Google Analytics for Firebase)가 자동 수집. 이름·연락처는 수집하지 않습니다</td></tr>
     </table>
@@ -64,6 +64,7 @@
       <tr><th>업체</th><th>맡기는 일</th><th>이전 항목</th><th>국가</th></tr>
       <tr><td>Supabase Inc.</td><td>회원 정보·생년월일 저장(로그인 시)</td><td>로그인 식별자, 생년월일</td><td>대한민국(서울, ap-northeast-2)</td></tr>
       <tr><td>Google LLC (AdMob, Firebase)</td><td>광고 표시, 오류 분석, 이용 통계</td><td>광고 식별자, 기기 정보, 오류 기록, 앱 이용 기록</td><td>미국 등</td></tr>
+      <tr><td>Google 인증 광고 파트너(AdMob 파트너 입찰 참여 업체)</td><td>광고 입찰·표시</td><td>광고 식별자, 기기 정보(광고 요청 정보)</td><td>업체별로 다름(국외 포함)</td></tr>
       <tr><td>Kakao Corp.</td><td>카카오 로그인</td><td>카카오 회원번호</td><td>대한민국</td></tr>
       <tr><td>Apple Inc.</td><td>Apple 로그인</td><td>Apple 사용자 식별자, 이메일</td><td>미국</td></tr>
     </table>
